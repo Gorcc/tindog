@@ -1,0 +1,195 @@
+#title{
+    background-color: #f53f5b;
+    color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+
+.container-fluid{
+    padding: 3% 10%;
+}
+
+.navbar{
+    
+    padding: 0 0 4.5rem ;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.nav-item{
+    padding: 0 18px;
+}
+
+
+.nav-link{
+
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Title image */
+
+.title-image{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 60%;
+    
+}
+@media (max-width: 991px){
+    .title-image{
+        position: static;
+        transform:rotate(0);
+        width: 40%;
+    }
+
+    #title{
+        text-align: center;
+    }
+    .testimonial-image{
+        min-width: 30%;
+        height: auto;
+    }
+}
+
+/* Features */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-box h3{
+    font-weight: bolder;
+}
+
+.feature-box p{
+    color:#8f8f8f;
+}
+
+
+#features i{
+    color: #ef8172;
+    font-size: 5rem;
+    padding: 10px;
+    transition: 0.3s ease;
+    
+
+}
+#features i:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials{
+   
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#testimonials h2{
+    font-size: 3rem;
+}
+
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing  */
+
+#pricing-header{
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    font-weight: bolder;
+}
+#pricing-header h2{
+    font-size: 43px;
+}
+#pricing-header p{
+font-weight: lighter;
+}
+
+
+.pricing-stuff{
+    padding: 25px;
+}
+
+
+/* Call to action */
+
+#cta{
+    background: #ff4c68;
+    text-align: center;
+    color: white;
+}
+
+#cta h3{
+    padding-top: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+
+/* Footer  */
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+    color: #8f8f8f;
+}
+#footer i{
+    margin: 10px;
+    color: rgb(13, 6, 49);
+    font-size: 20px;
+}
