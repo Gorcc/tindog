@@ -1,1 +1,3 @@
-TinDog Starting Files
+#TINDOG
+
+Done by using bootstrap
